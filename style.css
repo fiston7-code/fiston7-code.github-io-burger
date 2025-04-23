@@ -377,3 +377,193 @@ h2 {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    header {
+        padding: 14px 2%;
+        transition: 2s;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        /* gap: 12px; */
+
+
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .main-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .main-rigth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 20%;
+    
+
+    }
+
+    .main-left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .delivery-options {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        /* top: 100px; */
+        /* left: 50px; */
+        width: 100%;
+        height: 80%;
+        margin-bottom: 50px;
+        position: absolute;
+        top: 130px;
+        bottom: 80px;
+    
+    }
+
+    .delivery-option {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        /* width: 50%; */
+        height: 80px;
+        padding-bottom: 20px;
+    }
+
+    .carousel-container {
+        margin-bottom: 80px;
+    }
+
+    .carousel-inner {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .scroll-indicator {
+        margin-bottom: 2rem;
+        position: absolute;
+        bottom: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:768px) {
+    
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    header {
+        padding: 14px 2%;
+        transition: 2s;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        /* gap: 12px; */
+
+
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .main-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .main-rigth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 20%;
+    
+
+    }
+
+    .main-left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .delivery-options {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        /* top: 100px; */
+        /* left: 50px; */
+        width: 100%;
+        height: 80%;
+        margin-bottom: 50px;
+        position: absolute;
+        top: 130px;
+        bottom: 80px;
+    
+    }
+
+    .delivery-option {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        /* width: 50%; */
+        height: 80px;
+        padding-bottom: 20px;
+    }
+
+    .carousel-container {
+        margin-bottom: 80px;
+    }
+
+    .carousel-inner {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .scroll-indicator {
+        margin-bottom: 2rem;
+        position: absolute;
+        bottom: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
